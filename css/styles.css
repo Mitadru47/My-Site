@@ -1,0 +1,190 @@
+body{
+
+    margin: 0;
+    text-align: center;
+    
+    font-family: Merriweather, serif;
+}
+
+/* Top Container */
+
+.top-container{
+
+    background-color: #F8EDE3;
+    padding-top: 120px;
+}
+
+h1{
+
+    margin-top: 25px;
+    margin-bottom: 0;
+
+    /** 100% = 1em = 16px **/
+    font-size: 562.5%;
+    font-family: Sacramento, sans-serif;
+
+    color: #594545;
+}
+
+h2{
+
+  /* font-size: 2.5rem; */
+  font-family: Montserrat, sans-serif;
+  font-weight: normal;
+
+  color: #815B5B;  
+}
+
+#title2{
+
+    padding-left: 175px;
+    margin-top: 5px;
+
+    /* font-size: 2.5rem; */
+    font-family: Montserrat, sans-serif;
+    font-weight: normal;
+
+    color: #815B5B;
+}
+
+.pro{
+
+    text-decoration: underline;
+}
+
+.top-cloud{
+
+    position: absolute;
+
+    right: 370px;
+    top: 70px;
+}
+
+.bottom-cloud{
+
+    position: absolute;
+
+    top: 350px;
+    left: 400px;
+}
+
+/* Middle Container */
+/* Profile */
+
+.middle-container{
+
+    background-color: #F9F5E7;
+}
+
+#profile{
+
+    width: 20%;
+    margin-top: 100px;
+}
+
+.separator{
+
+    width: 5%;
+    
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    border-style: dotted none none none;
+    border-width: 5px;
+   
+    border-color: #594545;
+}
+
+h3{
+
+    color: #9E7676;
+    font-family: Montserrat, sans-serif;
+}
+
+.skill-row{
+
+    width: 50%;
+    margin: 100px auto 100px auto;
+
+    text-align: left;
+    line-height: 2;
+
+}
+
+.skill1{
+
+    width: 25%;
+    float: left;
+
+    margin-right: 30px;
+}
+
+.skill2{
+
+    width: 25%;
+    float: right;
+
+    margin-left: 30px;
+}
+
+/* Middle Container */
+/* Contact Me */
+
+.contact-me{
+
+    padding-bottom: 50px;
+}
+
+.contact-me-lines{
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    color: #FFF8EA;
+    background: #815B5B;
+
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #9E7676;
+    text-decoration: none;
+}
+
+/* Bottom Container */
+
+.bottom-container{
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    background-color: #C1A3A3;
+}
+
+a{
+
+    padding-right: 25px;
+    padding-left: 25px;
+
+    color: #815B5B;
+    text-decoration: none;
+
+    font-family: Montserrat, sans-serif;
+}
+
+a:hover{
+
+    color: #594545;
+    text-decoration: none;
+}
+
+#copyright{
+
+    margin-top: 30px;
+    margin-bottom: 0px;
+
+    font-size: small;
+}
